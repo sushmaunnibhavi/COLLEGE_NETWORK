@@ -6,13 +6,26 @@
     <h1>Welcome !</h1>
     {% if user.is_authenticated %}
         <h2>Hello {{ user.username }}</h2>
-        <!-- begin wwww.htmlcommentbox.com -->
+
+
          <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
          <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
          <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1548253062420");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-        <!-- end www.htmlcommentbox.com -->
-        <a class="twitter-moment" href="https://www.howtogeek.com/120865/the-best-websites-for-expanding-your-scientific-knowledge/">More about scientific knowledge:</a>
-         
+
+        <br><a  href="https://www.howtogeek.com/120865/the-best-websites-for-expanding-your-scientific-knowledge/">More about scientific knowledge</a>
+        <br>  <a  href="https://nptel.ac.in/">NPTEL LINK</a>
+        <br>   <a  href="https://www.udemy.com/?utm_source=bing-brand&utm_medium=udemyads&utm_campaign=NEW-BING-PROS-Brand-Total-EN-ENG_._ci__._sl_ENG_._vi__._sd_All_._la_EN_._&utm_term=_._ag_1208363434254577_._ad_%7Bcreative%7D_._de_c_._dm_%7Bdevicemodel%7D_._pl_%7Bplacement%7D_._ti_kwd-75522830955854_._li_116072_._pd_%7Bproduct_id%7D_._&msclkid=8f71bfc804b01d93018de3808b42bad2">UDEMY Link</a>
+          <br>   <a  href="https://www.edx.org/?utm_source=bing&utm_medium=cpc&utm_campaign=bs-in-brand-core&utm_term=edx&utm_content=edx_b">EDX Link</a>
+            <br>   <a  href="https://www.thefactsite.com/2011/07/top-100-random-funny-facts.html">FUN FACTS</a>
+
+
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                Select image to upload:
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Upload Image" name="submit">
+            </form>
+
+
     {% else %}
         <h4>Register or Login if you'd like to</h4>
     {% endif %}

@@ -46,7 +46,7 @@ def register(request):
                           {'user_form':user_form,
                            'profile_form':profile_form,
                            'registered':registered})
-
+#taken from internet
 def user_login(request):
     if request.method == 'POST':
         username = request.POST.get('username')

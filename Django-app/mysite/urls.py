@@ -23,6 +23,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$',views.index,name='index'),
+    #special taken from internet
     url(r'^special/',views.special,name='special'),
     url(r'^blog/',include('blog.urls')),
     url(r'^logout/$', views.user_logout, name='logout'),

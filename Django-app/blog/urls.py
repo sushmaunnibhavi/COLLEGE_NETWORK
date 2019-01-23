@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from django.conf.urls import include
 app_name = 'blog'
 
-# Be careful setting the name to just /login use userlogin instead!
+#register and login code
 urlpatterns=[
     url(r'^register/$',views.register,name='register'),
     url(r'^user_login/$',views.user_login,name='user_login'),

@@ -14,12 +14,3 @@ class UserProfileInfo(models.Model):
 
 def __str__(self):
   return self.user.username
-
-
-class DataFile(models.Model):
-    data = models.FileField()
-
-    def save(self, *args, **kwargs):
-        super(DataFile, self).save(*args, **kwargs)
-        filename = self.data.url
-        # Do anything you'd like with the data in filename
