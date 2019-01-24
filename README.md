@@ -6,31 +6,28 @@ College network is developed using django framework.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+College Connect is platform where everyone can share their pics or any other stuffs anonymously.
+Either it’s a pdf file, images. We are on a mission to make people more open and share
+their knowledge with everyone. Basically, This is currently for college students but can be used by
+everyone on large scale when we are able to have a good server to run it.
+1) Images,pdfs and many more to be implemented can be uploaded, shared and downloaded to
+local storage.
+2) Like, comment, delete (Only personal posts) and share functionality.
+3) Anonymous posting.
+
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
 Setup virtual environment using:python3 -m venv myvenv
 Create a requirements.txt file and install django using pip install -r requirements.txt
 Create a project using django-admin startproject mysite .
 
-
-### Installing
-
-
 ## Running the tests
-
-
-
-
+To run tests use:python manage.py runserver
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+Django framework,html,css,javascript
 
 ## Images
 
