@@ -18,8 +18,10 @@ local storage.
 
 ### Prerequisites
 
-Setup virtual environment using:python3 -m venv myvenv
+Setup virtual environment using:python3 -m venv myvenv.
+
 Create a requirements.txt file and install django using pip install -r requirements.txt
+
 Create a project using django-admin startproject mysite .
 
 ## Running the tests
